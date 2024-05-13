@@ -1,0 +1,23 @@
+.PlayerName {
+    display: block;
+    padding-left: 60px;
+
+}
+
+.stats {
+    width: 10%;
+    position: relative;
+    top: 30px;
+    right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-width: max-content;
+}
